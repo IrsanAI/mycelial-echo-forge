@@ -1,2 +1,7 @@
 networkx
 numpy
+fastapi
+uvicorn
+playwright
+requests
+scipy
