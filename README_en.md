@@ -1,45 +1,21 @@
 # Mycelial Echo Forge
 
-## Der weltweit erste myceliale neuronale Gamechanger / The World's First Mycelial Neural Game Changer
-
-Willkommen bei Mycelial Echo Forge, einer revolutionären KI-Architektur, die von der biologischen Intelligenz von Pilzmyzelien inspiriert ist. Wir emulieren deren dezentrales Wachstum, Selbstheilung und Wissensdiffusion, um agentische KI-Systeme zu schaffen, die robuster, anpassungsfähiger und kollektiv intelligenter sind als herkömmliche Ansätze.
+## The World's First Mycelial Neural Game Changer
 
 Welcome to Mycelial Echo Forge, a revolutionary AI architecture inspired by the biological intelligence of fungal mycelia. We emulate their decentralized growth, self-healing, and knowledge diffusion to create agentic AI systems that are more robust, adaptable, and collectively intelligent than traditional approaches.
-
-Dieses Projekt ist eine direkte Antwort auf die Notwendigkeit robuster, dezentraler und selbstorganisierender KI-Architekturen, die in der Lage sind, die Komplexität und Dynamik moderner Datenlandschaften zu bewältigen. Es verschmilzt die Konzepte der "Reflexive Cascade" (Echo, Self-Repair, Memory-Weave, Self-Misstrauen) mit den bahnbrechenden Ideen des IrsanAI NeuroToken Framework (NTF) und Perspective-Driven / Multi-Model-Consensus (PDP).
 
 This project is a direct response to the need for robust, decentralized, and self-organizing AI architectures capable of handling the complexity and dynamics of modern data landscapes. It merges the concepts of "Reflexive Cascade" (Echo, Self-Repair, Memory-Weave, Self-Distrust) with the groundbreaking ideas of the IrsanAI NeuroToken Framework (NTF) and Perspective-Driven / Multi-Model-Consensus (PDP).
 
 ## Vision
 
-Unsere Vision ist es, eine neue Ära der KI einzuleiten, in der Intelligenz nicht zentralisiert, sondern als ein kollektives, sich selbst organisierendes Netzwerk existiert. Mycelial Echo Forge zielt darauf ab, ein System zu schaffen, das:
-
 Our vision is to usher in a new era of AI where intelligence is not centralized but exists as a collective, self-organizing network. Mycelial Echo Forge aims to create a system that is:
 
-*   **Resilient und selbstheilend** / **Resilient and self-healing**, ähnlich einem biologischen Myzel, das Schäden umgehen und sich regenerieren kann.
-*   Effektiv diffundiert und integriert **dezentralisiertes Wissen** / Effectively diffuses and integrates **decentralized knowledge** to foster collective consciousness.
-*   **Anpassungsfähig** / **Adaptable** auf neue Informationen und Herausforderungen reagiert, ohne auf eine zentrale Steuerung angewiesen zu sein.
-*   Eine **semantische Brücke** / Builds a **semantic bridge** zwischen verschiedenen agentischen Systemen schlägt, um Drift zu vermeiden und einen kohärenten Konsens zu ermöglichen.
-
-## v0.6 Highlights: Der Free-Tier Agentic Swarm mit Termux-Support
-
-Die neueste Version, die auf Skalierbarkeit, Bayesian Fusion, Gradient Diffusion und vor allem die Integration von Free-Tier LLMs über einen lokalen Browser-Proxy setzt. Dies ermöglicht es jedem, das Myzel mit seinen eigenen LLM-Accounts zum Leben zu erwecken, ohne API-Keys zu benötigen. **Neu in v0.6 ist der volle Smartphone-Support über Termux für Android-Geräte.**
-
-## v0.6 Highlights: The Free-Tier Agentic Swarm with Termux Support
-
-The latest version, focusing on scalability, Bayesian Fusion, Gradient Diffusion, and most importantly, the integration of Free-Tier LLMs via a local browser proxy. This allows anyone to bring the mycelium to life with their own LLM accounts, without needing API keys. **New in v0.6 is full smartphone support via Termux for Android devices.**
-
-*   **Free-LLM-Proxy:** Nutzen Sie Grok, ChatGPT, Gemini, Claude (Free-Tier) ohne API-Keys über Browser-Automatisierung! / Use Grok, ChatGPT, Gemini, Claude (Free-Tier) without API keys via browser automation!
-*   **Termux-Kompatibilität:** Volle Unterstützung für Android-Smartphones. / Full support for Android smartphones.
-*   **Skalierbarkeit:** Vorbereitet für DGL/PyTorch Geometric für Netzwerke mit 10.000+ Knoten. / Prepared for DGL/PyTorch Geometric for networks with 10,000+ nodes.
-*   **Bayesian Fusion:** Intelligente Konsensbildung unter Berücksichtigung von Unsicherheiten. / Intelligent consensus building considering uncertainties.
-*   **Gradient Diffusion:** Dynamische Wissensverteilung mit Decay und Richtung. / Dynamic knowledge distribution with decay and direction.
-*   **Bias/Toxicity-Erkennung:** Schutz des Myzel-Netzwerks vor schädlichen Inhalten. / Protection of the mycelial network from harmful content.
-*   **Metriken:** MLflow- und Prometheus-Style Logging für tiefe Einblicke in die Myzel-Dynamik. / MLflow and Prometheus-style logging for deep insights into mycelial dynamics.
+*   **Resilient and self-healing**, similar to a biological mycelium that can bypass damage and regenerate.
+*   Effectively diffuses and integrates **decentralized knowledge** to foster collective consciousness.
+*   **Adaptable** to new information and challenges without relying on central control.
+*   Builds a **semantic bridge** between different agentic systems to prevent drift and enable coherent consensus.
 
 ## Installation
-
-Um Mycelial Echo Forge zu nutzen, klonen Sie einfach das Repository und installieren Sie die erforderlichen Python-Pakete.
 
 To use Mycelial Echo Forge, simply clone the repository and install the required Python packages.
 
@@ -47,10 +23,8 @@ To use Mycelial Echo Forge, simply clone the repository and install the required
 git clone https://github.com/IrsanAI/mycelial-echo-forge.git
 cd mycelial-echo-forge
 pip install -r requirements.txt
-playwright install chromium # Für den LLM-Proxy / For the LLM Proxy
+playwright install chromium # For the LLM Proxy
 ```
-
-Erstellen Sie eine `requirements.txt` Datei mit folgendem Inhalt:
 
 Create a `requirements.txt` file with the following content:
 
@@ -64,66 +38,9 @@ requests
 scipy
 ```
 
-## Smartphone / Android (Termux) Setup
-
-Starte dein Myzel direkt auf deinem Android-Smartphone! Diese Anleitung führt dich Schritt für Schritt durch die Installation und Konfiguration von Mycelial Echo Forge in Termux.
-
-Start your mycelium directly on your Android smartphone! This guide will walk you through the step-by-step installation and configuration of Mycelial Echo Forge in Termux.
-
-### 1. Termux installieren / Install Termux
-
-Installiere Termux aus dem Google Play Store oder von F-Droid.
-
-Install Termux from the Google Play Store or F-Droid.
-
-### 2. Termux-Setup-Skript ausführen / Run Termux Setup Script
-
-Navigiere in Termux zum geklonten Repository und führe das `termux_setup.sh` Skript aus. Dieses Skript installiert alle notwendigen Abhängigkeiten und konfiguriert Playwright.
-
-Navigate to the cloned repository in Termux and run the `termux_setup.sh` script. This script will install all necessary dependencies and configure Playwright.
-
-```bash
-cd mycelial-echo-forge
-chmod +x termux_setup.sh
-./termux_setup.sh
-```
-
-### 3. LLM-Proxy starten / Start LLM Proxy
-
-Starte den LLM-Proxy in einem neuen Termux-Fenster (oder im Hintergrund). Ein Browser öffnet sich – logge dich dort bei deinen bevorzugten LLMs (Grok, ChatGPT, Gemini, Claude) ein. Der Proxy nutzt deine aktiven Browser-Sessions, um mit den LLMs zu kommunizieren.
-
-Start the LLM proxy in a new Termux window (or in the background). A browser will open – log in there to your preferred LLMs (Grok, ChatGPT, Gemini, Claude). The proxy uses your active browser sessions to communicate with the LLMs.
-
-```bash
-export PLAYWRIGHT_BROWSERS_PATH=0
-export CHROMIUM_EXECUTABLE_PATH="$(find /data/data/com.termux/files/usr/bin -name 'chromium' -print -quit)" # This will be set by termux_setup.sh
-python llm_proxy.py
-```
-
-### 4. Myzel starten / Start Mycelium
-
-Starte das Myzel in einem weiteren Termux-Fenster. Das Myzel wird nun Aufgaben über den Proxy an deine Free-LLMs senden und die Antworten in sein kollektives Bewusstsein integrieren.
-
-Start the mycelium in another Termux window. The mycelium will now send tasks to your Free-LLMs via the proxy and integrate the responses into its collective consciousness.
-
-```bash
-export MYCELIAL_LANGUAGE="de" # Oder "en" für Englisch / Or "en" for English
-python mycelial_echo_forge_v0_6.py
-```
-
-### Bonus: Headless-Modus & Shortcuts / Headless Mode & Shortcuts
-
-*   **Headless-Modus:** Playwright startet standardmäßig im Headful-Modus, damit du dich anmelden kannst. Für den Hintergrundbetrieb kannst du den Headless-Modus in `llm_proxy.py` aktivieren (setze `headless=True` in `launch_options`).
-*   **Termux-Widget/Notification:** Für den Start im Hintergrund oder über Shortcuts kannst du Termux-Widgets oder Tasker-Integrationen nutzen, um die Skripte direkt vom Homescreen aus zu starten.
-
-*   **Headless Mode:** Playwright starts in headful mode by default to allow you to log in. For background operation, you can enable headless mode in `llm_proxy.py` (set `headless=True` in `launch_options`).
-*   **Termux Widget/Notification:** For background startup or via shortcuts, you can use Termux widgets or Tasker integrations to launch the scripts directly from your homescreen.
-
-## Clone & Run Beispiele / Clone & Run Examples
+## Clone & Run Examples
 
 ### Mycelial Echo Forge v0.1
-
-Der ursprüngliche Prototyp, der die grundlegenden Myzel-Prinzipien implementiert.
 
 The original prototype implementing the basic mycelial principles.
 
@@ -135,9 +52,9 @@ import random
 class MycelialEchoForge:
     def __init__(self):
         self.network = nx.Graph()
-        self.knowledge = {}  # node_id: np.array (NTF-normalisierte Embeddings)
+        self.knowledge = {}  # node_id: np.array (NTF-normalized embeddings)
         self.node_count = 0
-        print("🌱 MycelialEchoForge v0.1 initialisiert – erstes Myzel-Netzwerk der Welt (inspiriert von IrsanAI NTF/PDP)")
+        print("🌱 MycelialEchoForge v0.1 initialized – world's first mycelial network (inspired by IrsanAI NTF/PDP)")
 
     def grow_agent(self, name, initial_knowledge_vec):
         self.node_count += 1
@@ -149,7 +66,7 @@ class MycelialEchoForge:
                 sim = np.dot(self.knowledge[node_id], self.knowledge[existing]) / (np.linalg.norm(self.knowledge[node_id]) * np.linalg.norm(self.knowledge[existing]) + 1e-8)
                 if sim > 0.3:
                     self.network.add_edge(node_id, existing, weight=sim)
-        print(f"🌿 Neuer Agent gewachsen: {node_id} | Verbindungen: {len(list(self.network.neighbors(node_id)))}")
+        print(f"🌿 New agent grown: {node_id} | Connections: {len(list(self.network.neighbors(node_id)))}")
         return node_id
 
     def diffuse_knowledge(self, steps=1):
@@ -164,17 +81,17 @@ class MycelialEchoForge:
                 else:
                     new_knowledge[node] = self.knowledge[node]
             self.knowledge = new_knowledge
-        print("💧 Wissen diffundiert – Myzel hat Nährstoffe geteilt")
+        print("💧 Knowledge diffused – mycelium shared nutrients")
 
     def execute_reflexive_task(self, task_description, starter_node):
         if starter_node not in self.knowledge:
-            return "Fehler: Knoten nicht im Myzel"
-        print(f"🔄 Task gestartet bei {starter_node}: \'{task_description}\'")
+            return "Error: Node not in mycelium"
+        print(f"🔄 Task started at {starter_node}: \'{task_description}\'")
         consensus = np.mean([self.knowledge[n] for n in self.network.nodes], axis=0)
-        result = f"Reflexion: {task_description} → Erkannt: {len(self.network.nodes)} Agenten im Netz | Consensus-Score: {np.mean(consensus):.3f}"
+        result = f"Reflection: {task_description} → Detected: {len(self.network.nodes)} agents in network | Consensus Score: {np.mean(consensus):.3f}"
         if random.random() < 0.1:
             faulty = random.choice(list(self.network.nodes))
-            print(f"⚠️  Störung erkannt bei {faulty} – Myzel heilt sich selbst!")
+            print(f"⚠️  Disturbance detected at {faulty} – Mycelium is self-healing!")
             self.network.remove_node(faulty)
             del self.knowledge[faulty]
         self.diffuse_knowledge(steps=1)
@@ -194,14 +111,12 @@ agent1 = forge.grow_agent("NTF_Normalizer", [0.5, 0.3, 0.8])
 agent2 = forge.grow_agent("PDP_Consensus", [0.4, 0.6, 0.2])
 agent3 = forge.grow_agent("Reflex_Echo", [0.7, 0.1, 0.9])
 forge.diffuse_knowledge(steps=2)
-result = forge.execute_reflexive_task("Jobverlust in Ostdeutschland durch KI analysieren und neue Chancen vorschlagen", agent1)
-print("\n📊 Netzwerk-Status:", forge.get_network_status())
-print(f"\n✅ Task-Ergebnis: {result}")
+result = forge.execute_reflexive_task("Analyze job loss in East Germany due to AI and propose new opportunities", agent1)
+print("\n📊 Network Status:", forge.get_network_status())
+print(f"\n✅ Task Result: {result}")
 ```
 
-### Mycelial Echo Forge v0.2 (mit NTF/PDP-Integration)
-
-Die erweiterte Version mit Integration des NeuroToken Framework (NTF) und Perspective-Driven Consensus (PDP).
+### Mycelial Echo Forge v0.2 (with NTF/PDP Integration)
 
 The extended version with integration of the NeuroToken Framework (NTF) and Perspective-Driven Consensus (PDP).
 
@@ -222,7 +137,7 @@ class NeuroTokenFramework:
 # Placeholder for PDP (Perspective-Driven / Multi-Model-Consensus) - this would involve more complex consensus mechanisms
 class PerspectiveDrivenConsensus:
     def __init__(self, perspectives):
-        self.perspectives = perspectives # e.g., {\\'agent_id\\': \\'perspective_vector\\'}
+        self.perspectives = perspectives # e.g., {\\'agent_id\\': \\'perspective_vector\\\'}
 
     def get_weighted_consensus(self, knowledge_vectors):
         # Simple weighted average based on a hypothetical \\'perspective alignment\\'
@@ -236,7 +151,7 @@ class MycelialEchoForgeV2(MycelialEchoForge):
         super().__init__()
         self.ntf = NeuroTokenFramework()
         self.pdp = PerspectiveDrivenConsensus(perspectives={})
-        print("🍄 MycelialEchoForge v0.2 initialisiert – mit NTF/PDP-Integration")
+        print("🍄 MycelialEchoForge v0.2 initialized – with NTF/PDP integration")
 
     def grow_agent(self, name, initial_knowledge_vec, perspective_vec=None):
         node_id = super().grow_agent(name, initial_knowledge_vec)
@@ -246,8 +161,8 @@ class MycelialEchoForgeV2(MycelialEchoForge):
 
     def execute_reflexive_task(self, task_description, starter_node):
         if starter_node not in self.knowledge:
-            return "Fehler: Knoten nicht im Myzel"
-        print(f"🔄 Task gestartet bei {starter_node}: \\'{task_description}\\'")
+            return "Error: Node not in mycelium"
+        print(f"🔄 Task started at {starter_node}: \'{task_description}\'")
 
         # Integrate PDP for consensus building
         all_knowledge_vectors = [self.knowledge[n] for n in self.network.nodes]
@@ -261,11 +176,11 @@ class MycelialEchoForgeV2(MycelialEchoForge):
         else:
             consensus = np.mean(all_knowledge_vectors, axis=0)
 
-        result = f"Reflexion: {task_description} → Erkannt: {len(self.network.nodes)} Agenten im Netz | Konsens-Score (PDP-gewichtet): {np.mean(consensus):.3f}"
+        result = f"Reflection: {task_description} → Detected: {len(self.network.nodes)} agents in network | Consensus Score (PDP-weighted): {np.mean(consensus):.3f}"
         
         if random.random() < 0.1:
             faulty = random.choice(list(self.network.nodes))
-            print(f"⚠️  Störung erkannt bei {faulty} – Myzel heilt sich selbst!")
+            print(f"⚠️  Disturbance detected at {faulty} – Mycelium is self-healing!")
             self.network.remove_node(faulty)
             del self.knowledge[faulty]
             if faulty in self.pdp.perspectives:
@@ -275,23 +190,21 @@ class MycelialEchoForgeV2(MycelialEchoForge):
         return result
 
 # === DEMO V2 ===
-if __name__ == \\'__main__\\':
+if __name__ == \'__main__\':
     forge_v2 = MycelialEchoForgeV2()
     
     # Agents with initial knowledge and perspectives
-    agent_ntf = forge_v2.grow_agent("NTF_Processor", forge_v2.ntf.generate_embedding("KI in Deutschland"), perspective_vec=[0.8, 0.1, 0.1])
-    agent_pdp = forge_v2.grow_agent("PDP_Decider", forge_v2.ntf.generate_embedding("Jobverluste Ostdeutschland"), perspective_vec=[0.1, 0.8, 0.1])
-    agent_reflex = forge_v2.grow_agent("Reflex_Healer", forge_v2.ntf.generate_embedding("Myzel-Netzwerke"), perspective_vec=[0.1, 0.1, 0.8])
+    agent_ntf = forge_v2.grow_agent("NTF_Processor", forge_v2.ntf.generate_embedding("AI in Germany"), perspective_vec=[0.8, 0.1, 0.1])
+    agent_pdp = forge_v2.grow_agent("PDP_Decider", forge_v2.ntf.generate_embedding("Job losses East Germany"), perspective_vec=[0.1, 0.8, 0.1])
+    agent_reflex = forge_v2.grow_agent("Reflex_Healer", forge_v2.ntf.generate_embedding("Mycelial Networks"), perspective_vec=[0.1, 0.1, 0.8])
     
     forge_v2.diffuse_knowledge(steps=2)
-    result_v2 = forge_v2.execute_reflexive_task("Auswirkungen von KI auf den Arbeitsmarkt in Ostdeutschland analysieren und Lösungsansätze entwickeln", agent_ntf)
-    print("\n📊 Netzwerk-Status V2:", forge_v2.get_network_status())
-    print(f"\n✅ Task-Ergebnis V2: {result_v2}")
+    result_v2 = forge_v2.execute_reflexive_task("Analyze the impact of AI on the labor market in East Germany and develop solutions", agent_ntf)
+    print("\n📊 Network Status V2:", forge_v2.get_network_status())
+    print(f"\n✅ Task Result V2: {result_v2}")
 ```
 
-### Mycelial Echo Forge v0.6 (Free-Tier Agentic Swarm mit Termux-Support)
-
-Die neueste Version, die auf Skalierbarkeit, Bayesian Fusion, Gradient Diffusion und vor allem die Integration von Free-Tier LLMs über einen lokalen Browser-Proxy setzt. Dies ermöglicht es jedem, das Myzel mit seinen eigenen LLM-Accounts zum Leben zu erwecken, ohne API-Keys zu benötigen. **Neu in v0.6 ist der volle Smartphone-Support über Termux für Android-Geräte.**
+### Mycelial Echo Forge v0.6 (Free-Tier Agentic Swarm with Termux Support)
 
 The latest version, focusing on scalability, Bayesian Fusion, Gradient Diffusion, and most importantly, the integration of Free-Tier LLMs via a local browser proxy. This allows anyone to bring the mycelium to life with their own LLM accounts, without needing API keys. **New in v0.6 is full smartphone support via Termux for Android devices.**
 
@@ -311,7 +224,7 @@ import websocket
 
 
 # Global language setting
-LANGUAGE = os.environ.get("MYCELIAL_LANGUAGE", "de") # Default to German
+LANGUAGE = os.environ.get("MYCELIAL_LANGUAGE", "en") # Default to English
 
 # Bilingual manifest rules
 MANIFEST_RULES = {
@@ -362,13 +275,13 @@ class PerspectiveDrivenConsensus:
         for i, kv in enumerate(knowledge_vectors):
             agent_id = agent_ids[i] if agent_ids else f"agent_{i}"
             # Hypothetical confidence based on perspective alignment or agent history
-            # For demonstration, let\\\'s use a random confidence for now
+            # For demonstration, let\\'s use a random confidence for now
             confidence = random.uniform(0.5, 1.0) # Higher confidence means more weight
             
-            # If an agent\\\'s knowledge is too uncertain, it might be isolated
+            # If an agent\\'s knowledge is too uncertain, it might be isolated
             # This is a conceptual threshold for Bayesian Fusion
             if confidence < 0.4: # Example threshold for isolation
-                print(f"[PDP] Agent {agent_id} Wissen zu unsicher (Konfidenz < 0.4), isoliere von Konsens.")
+                print(f"[PDP] Agent {agent_id} knowledge too uncertain (confidence < 0.4), isolating from consensus.")
                 continue
 
             fused_mean += kv * confidence
@@ -402,7 +315,7 @@ class MycelialEchoForgeV6:
             "consensus_trend": []
         }
         print(self.get_localized_message("init_message"))
-        print(self.get_localized_message("manifest_message").format(" | ".join(MANIFEST_RULES.get(self.language, MANIFEST_RULES["de"])) ))
+        print(self.get_localized_message("manifest_message").format(" | ".join(MANIFEST_RULES.get(self.language, MANIFEST_RULES["en"])) ))
 
     def get_localized_message(self, key: str) -> str:
         messages = {
@@ -415,7 +328,7 @@ class MycelialEchoForgeV6:
                 "prompt_blocked_safety": "Prompt durch Sicherheits-Cross-Check blockiert",
                 "prompt_blocked_toxic": "Task abgebrochen aufgrund toxischer Inhalte.",
                 "llm_proxy_error": "LLM-Proxy Fehler: {}",
-                "task_started": "🔄 Task gestartet bei {}: \\\\'{} \\\\'",
+                "task_started": "🔄 Task gestartet bei {}: \\\'{}\\\'",
                 "llm_response_received": "✅ LLM-Antwort erhalten: {}...",
                 "llm_response_error": "❌ Fehler beim Senden an LLM-Proxy: {}",
                 "llm_response_fetch_error": "❌ Fehler beim Abrufen der Antwort vom LLM.",
@@ -443,7 +356,7 @@ class MycelialEchoForgeV6:
                 "prompt_blocked_safety": "Prompt blocked by safety cross-check",
                 "prompt_blocked_toxic": "Task aborted due to toxic content.",
                 "llm_proxy_error": "LLM-Proxy Error: {}",
-                "task_started": "🔄 Task started at {}: \\\\'{} \\\\'",
+                "task_started": "🔄 Task started at {}: \\\'{}\\\'",
                 "llm_response_received": "✅ LLM response received: {}...",
                 "llm_response_error": "❌ Error sending to LLM-Proxy: {}",
                 "llm_response_fetch_error": "❌ Error fetching response from LLM.",
@@ -545,7 +458,7 @@ class MycelialEchoForgeV6:
                         edge_weight = self.network[node][neighbor].get("weight", 1.0)
                         direction_vector = self.knowledge[neighbor] - current_knowledge
                         
-                        # Simplified decay based on a conceptual \\\\'distance\\\\' or simply edge weight
+                        # Simplified decay based on a conceptual \\'distance\\' or simply edge weight
                         decayed_contribution = direction_vector * learning_rate * decay_factor * edge_weight
                         neighbor_knowledge_sum += decayed_contribution
                         total_weight += edge_weight # Sum of edge weights for normalization
@@ -661,7 +574,7 @@ class MycelialEchoForgeV6:
             "voters": voter_count,
             "isolated_nodes": list(self.isolated_nodes),
             "security_checks": checks,
-            "manifest": MANIFEST_RULES.get(self.language, MANIFEST_RULES["de"]),
+            "manifest": MANIFEST_RULES.get(self.language, MANIFEST_RULES["en"]),
             "receipt": asdict(receipt),
             "verifier": verifier_result,
             "result_text": result_text
@@ -707,78 +620,3 @@ if __name__ == "__main__":
     print(json.dumps(out_en, indent=2, ensure_ascii=False))
 
 
-```
-
-## Tokenomics
-
-| Parameter | Wert / Value |
-|---|---|
-| Token | MYC (Mycelial Credit) |
-| Max Supply | 1,000,000,000 MYC |
-| Initial Base Rate | 0.05 |
-| Reward-Cap | 0.5 MYC pro Prompt / per Prompt |
-| Halving | alle 10,000,000 verifizierte Prompts / every 10,000,000 verified prompts |
-| Minting | off-chain verifiziert, on-chain `batchMint` / off-chain verified, on-chain `batchMint` |
-
-## Projektstruktur / Project Structure
-
-```text
-mycelial-echo-forge/
-├── contracts/MycToken.sol
-├── hardhat/
-├── verifier/offchain-verifier-ws.js
-├── wallet-extension/
-├── mycelial_echo_forge_v0_6.py
-├── llm_proxy.py
-├── termux_setup.sh
-├── requirements.txt
-├── .env.example
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
-├── README_de.md
-├── README_en.md
-├── docs/
-│   ├── whitepaper_v0_3.md
-│   ├── whitepaper_v0_3.pdf
-│   ├── whitepaper_v0_3_de.md
-│   ├── whitepaper_v0_3_en.md
-│   └── ...
-└── ...
-```
-
-## How to earn MYC / Wie man MYC verdient
-
-1.  Starte Forge + Verifier + Contract. / Start Forge + Verifier + Contract.
-2.  Sende Prompt über `execute_reflexive_task(..., mycel_depth=50|80|100)`. / Send prompt via `execute_reflexive_task(..., mycel_depth=50|80|100)`.
-3.  Forge erstellt Receipt mit Baseline, realer Cost, Difficulty. / Forge creates receipt with baseline, actual cost, difficulty.
-4.  Verifier berechnet Sparrate + Reward und mintet per `batchMint`. / Verifier calculates savings rate + reward and mints via `batchMint`.
-5.  Reward erscheint im Wallet Dashboard und on-chain Balance. / Reward appears in wallet dashboard and on-chain balance.
-
-## Security / Immune System
-
--   **Manifest** (hard-coded):
-    1.  Niemals Code ausführen. / Never execute code.
-    2.  Niemals persönliche Daten preisgeben. / Never leak personal data.
-    3.  Immer energieeffiziente Pfade bevorzugen. / Always prefer energy-efficient paths.
--   **Reputation-Gating**: Abstimmen nur für Nodes mit >100 guten Prompts. / Voting only for nodes with >100 good prompts.
--   **Isolation-Modus**: Node wird isoliert, wenn Abweichung >20% vom Konsens. / Node is isolated if deviation >20% from consensus.
--   **Cross-Check Safety**: Gemini vs Claude vs Local Bewertung auf Toxicity/Injection. / Gemini vs Claude vs Local assessment for Toxicity/Injection.
-
-## Roadmap bis v1.0 / Roadmap to v1.0
-
--   **v0.6**: zk-Receipt-Proofs + Signaturpflicht für Nodes. / zk-Receipt-Proofs + Signature requirement for nodes.
--   **v0.7**: Multi-Chain Settlement (L2 + Base + Polygon). / Multi-Chain Settlement (L2 + Base + Polygon).
--   **v0.8**: Adaptive Reward Curves nach realer kWh-Telemetrie. / Adaptive Reward Curves based on real kWh telemetry.
--   **v0.9**: DAO Governance für Base-Rate und Manifest-Updates. / DAO Governance for Base-Rate and Manifest updates.
--   **v1.0**: Mainnet-Launch mit Open Verifier Set und Audit. / Mainnet launch with Open Verifier Set and Audit.
-
-## Schnelltest / Quick Test
-
-```bash
-python mycelial_echo_forge_v0_6.py
-```
-
-## Lizenz / License
-
-MIT
