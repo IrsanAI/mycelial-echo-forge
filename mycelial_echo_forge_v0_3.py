@@ -5,6 +5,7 @@ import random
 import json
 import requests
 import time
+import websocket
 from scipy.stats import norm
 
 # --- Placeholder for DGL/PyTorch Geometric for scalability (conceptual) ---
@@ -241,3 +242,12 @@ if __name__ == '__main__':
     print("\n📊 Netzwerk-Status V3 (nach Unsicherheits-Test):", forge_v3.get_network_status())
 
 
+
+
+def send_reward_receipt(verifier_ws_url, receipt):
+    """Sendet Reward-Receipts an den Off-Chain-Verifier (v0.5 kompatibel)."""
+    ws = websocket.create_connection(verifier_ws_url, timeout=10)
+    ws.send(json.dumps(receipt))
+    response = json.loads(ws.recv())
+    ws.close()
+    return response
