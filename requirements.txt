@@ -5,3 +5,6 @@ uvicorn
 playwright
 requests
 scipy
+websocket-client
+web3
+python-dotenv
