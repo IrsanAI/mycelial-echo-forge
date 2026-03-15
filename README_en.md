@@ -1,5 +1,7 @@
 # Mycelial Echo Forge
 
+![Mycelial vs Neural Network Architecture](mycelial_vs_neural_v2.png)
+
 ## The World's First Mycelial Neural Game Changer
 
 Welcome to Mycelial Echo Forge, a revolutionary AI architecture inspired by the biological intelligence of fungal mycelia. We emulate their decentralized growth, self-healing, and knowledge diffusion to create agentic AI systems that are more robust, adaptable, and collectively intelligent than traditional approaches.

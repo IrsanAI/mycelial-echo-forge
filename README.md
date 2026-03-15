@@ -1,5 +1,7 @@
 # Mycelial Echo Forge
 
+![Mycelial vs Neural Network Architecture](mycelial_vs_neural_v2.png)
+
 ## Der weltweit erste myceliale neuronale Gamechanger / The World's First Mycelial Neural Game Changer
 
 Willkommen bei Mycelial Echo Forge, einer revolutionären KI-Architektur, die von der biologischen Intelligenz von Pilzmyzelien inspiriert ist. Wir emulieren deren dezentrales Wachstum, Selbstheilung und Wissensdiffusion, um agentische KI-Systeme zu schaffen, die robuster, anpassungsfähiger und kollektiv intelligenter sind als herkömmliche Ansätze.
